@@ -27,3 +27,12 @@ console.log(numbers)
 //Ad an eleement to the beginnning of an array
 numbers.unshift(1)
 console.log(numbers)
+
+//How to get the number of items in an array
+
+console.log(numbers.length)
+
+//How to remove an element from an array
+delete numbers[4]
+
+console.log(numbers)
